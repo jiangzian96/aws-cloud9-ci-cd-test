@@ -3,5 +3,5 @@ learning CI/CD
 
 1. create virtualenv
 2. create scaffolding 
-    a. 
-    b. 
+    Makefile: install, lint, run
+3. Github actions (CD)
