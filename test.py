@@ -8,6 +8,4 @@ y_test = np.load("y_test.npy")
 
 filename = 'model.pkl'
 model = pickle.load(open(filename, 'rb'))
-print(model.predict(X_test))
-print(y_test)
-print(sum(model.predict(X_test) == y_test)/len(y_test))
+print(model.score(X_test, y_test))
